@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.DS_Store
+emails.db
+*.sqlite
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/

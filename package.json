@@ -1,0 +1,68 @@
+{
+  "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@google-cloud/language": "^7.2.0",
+    "@types/bull": "^3.15.9",
+    "@types/express": "^5.0.3",
+    "@types/imap": "^0.8.42",
+    "@types/nodemailer": "^7.0.0",
+    "@types/socket.io": "^3.0.1",
+    "@types/sqlite3": "^3.1.11",
+    "@types/uuid": "^10.0.0",
+    "bull": "^4.16.5",
+    "claude-flow": "^2.0.0-alpha.86",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "imap": "^0.8.19",
+    "ioredis": "^5.7.0",
+    "mailparser": "^3.7.4",
+    "natural": "^8.1.0",
+    "nodemailer": "^7.0.5",
+    "openai": "^5.13.1",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "zod": "^3.25.76"
+  },
+  "name": "agentic-email",
+  "version": "1.0.0",
+  "description": "Enterprise-grade agentic email system with AI-powered features",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.40.0",
+    "@typescript-eslint/parser": "^8.40.0",
+    "eslint": "^9.33.0",
+    "jest": "^30.0.5",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist coverage",
+    "precommit": "npm run lint && npm run typecheck && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globalbusinessadvisors/agentic-email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/globalbusinessadvisors/agentic-email/issues"
+  },
+  "homepage": "https://github.com/globalbusinessadvisors/agentic-email#readme"
+}
