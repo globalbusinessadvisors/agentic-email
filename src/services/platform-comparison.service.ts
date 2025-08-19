@@ -112,7 +112,7 @@ export class PlatformComparisonService {
         oauth: true,
         plugins: ['WordPress', 'Drupal', 'Joomla', 'Salesforce', 'HubSpot'],
         customIntegrations: true,
-        qudagCompatibility: 'full',
+        qudagCompatibility: 'full', // Native API integration plus Qudag agent layer
       },
       pricing: {
         type: 'free',
@@ -180,7 +180,7 @@ export class PlatformComparisonService {
         oauth: false,
         plugins: ['WordPress'],
         customIntegrations: true,
-        qudagCompatibility: 'partial',
+        qudagCompatibility: 'full', // API integration with Qudag agent orchestration
       },
       pricing: {
         type: 'free',
@@ -247,7 +247,7 @@ export class PlatformComparisonService {
         oauth: false,
         plugins: [],
         customIntegrations: true,
-        qudagCompatibility: 'partial',
+        qudagCompatibility: 'full', // API integration with Qudag agent orchestration
       },
       pricing: {
         type: 'free',
@@ -315,7 +315,7 @@ export class PlatformComparisonService {
         oauth: true,
         plugins: ['LDAP', 'CAS', 'Shibboleth'],
         customIntegrations: true,
-        qudagCompatibility: 'partial',
+        qudagCompatibility: 'full', // API integration with Qudag agent orchestration
       },
       pricing: {
         type: 'free',
@@ -382,7 +382,7 @@ export class PlatformComparisonService {
         oauth: false,
         plugins: ['Dovecot', 'SpamAssassin', 'ClamAV'],
         customIntegrations: true,
-        qudagCompatibility: 'partial',
+        qudagCompatibility: 'full', // SMTP integration with Qudag agent orchestration
       },
       pricing: {
         type: 'free',

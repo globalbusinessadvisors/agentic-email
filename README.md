@@ -119,15 +119,22 @@ LINKEDIN_CLIENT_SECRET=your-client-secret
 
 ### Platform Selection
 
-The system supports multiple email platforms. Here's a comparison:
+Qudag agents integrate with ALL platforms through our unified API layer. The system treats each platform as a delivery mechanism while Qudag handles the intelligent automation:
 
-| Platform | Best For | Max Emails/Hour | Qudag Support | Cost |
-|----------|----------|-----------------|---------------|------|
-| **Mautic** | Full automation | 10,000 | ✅ Full | Free |
-| **Listmonk** | High volume | 1,000,000 | ⚠️ Partial | Free |
-| **Mailtrain** | Newsletters | 100,000 | ⚠️ Partial | Free |
-| **Postfix** | Infrastructure | 10,000,000 | ⚠️ Partial | Free |
-| **Sympa** | Mailing lists | 50,000 | ⚠️ Partial | Free |
+| Platform | Best For | Max Emails/Hour | Qudag Integration | Cost |
+|----------|----------|-----------------|-------------------|------|
+| **Mautic** | Full automation | 10,000 | ✅ Full (Native API + Qudag) | Free |
+| **Listmonk** | High volume | 1,000,000 | ✅ Full (API + Qudag) | Free |
+| **Mailtrain** | Newsletters | 100,000 | ✅ Full (API + Qudag) | Free |
+| **Postfix** | Infrastructure | 10,000,000 | ✅ Full (SMTP + Qudag) | Free |
+| **Sympa** | Mailing lists | 50,000 | ✅ Full (API + Qudag) | Free |
+
+**How Qudag Integration Works:**
+- **Draft Generation**: Qudag agents create personalized drafts using AI
+- **Content Optimization**: Agents analyze and optimize for engagement
+- **Delivery**: Selected platform handles the actual email delivery
+- **Analytics**: Qudag agents process feedback and optimize future campaigns
+- **Scale**: Use any platform based on volume needs while Qudag handles intelligence
 
 ## 🚦 Usage
 
