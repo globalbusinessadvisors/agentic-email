@@ -523,7 +523,7 @@ in the Software without restriction...
 
 ### Made with ❤️ by the Global Business Advisors Team
 
-**[Website](https://globalbusinessadvisors.com)** • **[GitHub](https://github.com/globalbusinessadvisors)** • **[LinkedIn](https://linkedin.com/company/global-business-advisors)**
+**[Website](https://globalbusinessadvisors.com)** • **[GitHub](https://github.com/globalbusinessadvisors)** • **[LinkedIn](https://www.linkedin.com/company/globalbusinessadvisorsinc/)**
 
 <sub>If you find this project useful, please consider giving it a ⭐ on GitHub!</sub>
 
